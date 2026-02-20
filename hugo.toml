@@ -3,6 +3,8 @@ title        = "My Blog"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 pagination.pagerSize     = 10
+enableRobotsTXT = true
+relativeurls = true
 canonifyURLs = true
 
 [params]
@@ -21,12 +23,27 @@ canonifyURLs = true
   enableSharingButtons = true
   
   # Show a global language switcher in the navigation bar
-  enableGlobalLanguageMenu = true
+  enableGlobalLanguageMenu = false
 
   # Metadata mostly used in document's head
   description = "My new homepage or blog"
   keywords = "homepage, blog"
   images = [""]
+
+  [params.footer]
+    trademark = 2026
+    rss = true
+    copyright = true
+    author = true
+
+    topText = []
+    bottomText = [
+      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+      "Made with &#10084; by <a href=\"https://github.com/tmswfrk\">James Clarke</a>"
+    ]
+
+[params.author]
+    name = "nilpointer.blog"
 
 [taxonomies]
     category = "categories"
@@ -35,8 +52,8 @@ canonifyURLs = true
 
 [languages]
   [languages.en]
-    title = "Nil Pointers: the Blog"
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    title = "A Blog for the Uninitialized"
+    copyright = '<a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank" rel="noopener">Licensed under Apache 2.0</a>'
 
   [languages.en.params]
     subtitle  = "Well, it worked on MY machine"
@@ -51,22 +68,16 @@ canonifyURLs = true
 
   # And you can even create generic menu
   [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/blog"
+    identifier = "posts"
+    name       = "Posts"
+    url        = "/posts"
 
   # and submenus
   [[menu.main]]
-    identifier  = "parent"
-    name        = "Parent"
-    url         = "/parent"
+    identifier  = "about"
+    name        = "About Me"
+    url         = "/about"
     hasChildren = true
-
-  [[menu.main]]
-    identifier  = "child"
-    name        = "Child"
-    url         = "/parent/child"
-    parent      = "parent"
 
 [[params.social]]
     name = "email"
