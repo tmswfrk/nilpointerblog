@@ -1,5 +1,5 @@
 baseurl      = "localhost"
-title        = "My Blog"
+title        = "The Nil Pointer Blog"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 pagination.pagerSize     = 10
@@ -7,11 +7,18 @@ enableRobotsTXT = true
 relativeurls = true
 canonifyURLs = true
 
+[services]
+  [services.googleAnalytics]
+    ID = 'G-2T2N66TQ3L'
+
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
+
+  # Override certain CSS items if specified
+  # customCSS = ["/css/custom.css"]
 
   # Subtitle for home
   homeSubtitle = "Well, it worked on MY machine"
@@ -26,8 +33,8 @@ canonifyURLs = true
   enableGlobalLanguageMenu = false
 
   # Metadata mostly used in document's head
-  description = "My new homepage or blog"
-  keywords = "homepage, blog"
+  description = "A blog full of musings on various technical topics such as Golang, cloud computing, Site Reliability Engineering, and other things."
+  keywords = "nil pointer, blog musings"
   images = ["img/og-default.jpg"]
 
   [params.footer]
@@ -43,7 +50,7 @@ canonifyURLs = true
     ]
 
 [params.author]
-    name = "nilpointer.blog"
+    name = "James Clarke"
 
 [taxonomies]
     category = "categories"
@@ -60,7 +67,7 @@ canonifyURLs = true
 
     [languages.en.params.logo]
       logoText = "curl -X POST /dev/null"
-      logoHomeLink = "/"
+      logoHomeLink = "/posts"
     # or
     #
     # path = "/img/your-example-logo.svg"
@@ -68,14 +75,14 @@ canonifyURLs = true
 
   # And you can even create generic menu
   [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "/posts"
+    identifier = "home"
+    name       = "cd $HOME"
+    url        = "/"
 
   # and submenus
   [[menu.main]]
     identifier  = "about"
-    name        = "About Me"
+    name        = "$(whoami)"
     url         = "/about"
     hasChildren = true
 
