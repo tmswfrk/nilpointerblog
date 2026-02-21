@@ -3,8 +3,6 @@ title: "\"Clever\" Has No Place in CI"
 date: 2026-02-19T20:18:15-08:00
 draft: false
 toc: false
-images:
-  - ""
 tags:
   - CI
   - Github Actions
