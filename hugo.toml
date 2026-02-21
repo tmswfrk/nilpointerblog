@@ -28,7 +28,7 @@ canonifyURLs = true
   # Metadata mostly used in document's head
   description = "My new homepage or blog"
   keywords = "homepage, blog"
-  images = [""]
+  images = ["img/og-default.jpg"]
 
   [params.footer]
     trademark = 2026
