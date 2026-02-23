@@ -1,7 +1,7 @@
 ---
 title: "A Golang Slice gotcha that...got me"
 date: 2026-02-21T12:33:28-08:00
-description: "Golang slices are not arrays and it is important to know their differences to better understand Golang"
+description: "I definitely didn't understand this topic enough."
 draft: false
 toc: false
 images:
