@@ -1,7 +1,7 @@
 ---
 title: "\"Clever\" Has No Place in CI"
 date: 2026-02-19T20:18:15-08:00
-description: "In CI, being clever is often a solution in search of a problem"
+description: "My hot take: in CI, being clever is often a solution in search of a problem."
 draft: false
 toc: false
 keywords:

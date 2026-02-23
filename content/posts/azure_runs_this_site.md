@@ -1,7 +1,7 @@
 ---
 title: "Azure (currently) runs this site"
 date: 2026-02-20T17:36:02-08:00
-description: "This post describes how this website is hosted in Azure as a static website, deployed via Front Door"
+description: "This post documents how this website is hosted in Azure as a static website, deployed via Front Door."
 draft: false
 toc: false
 keywords:
