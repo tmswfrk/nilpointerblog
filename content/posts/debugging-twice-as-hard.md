@@ -2,7 +2,7 @@
 title: "A thought on debugging"
 date: 2026-02-24T13:48:08-08:00
 description: "Who doesn't love a good quote?"
-draft: true
+draft: false
 toc: false
 images:
 keywords:
