@@ -5,6 +5,11 @@ description: "As engineers, we absolutely should be challenging authority and pu
 draft: false
 toc: false
 images:
+keywords:
+  - Pushing back on management
+  - Communication in the workforce
+  - Roger Boisjoly
+  - Challenger Shuttle
 tags:
   - Management
   - Empowerment
