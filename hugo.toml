@@ -11,6 +11,9 @@ canonifyURLs = true
   [services.googleAnalytics]
     ID = 'G-2T2N66TQ3L'
 
+[permalinks]
+  posts = "/:section/:year/:month/:title/"
+
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
