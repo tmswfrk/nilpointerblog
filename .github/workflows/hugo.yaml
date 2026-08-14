@@ -1,4 +1,4 @@
-name: BWC Build and Deploy
+name: NilPointerBlog Build and Deploy
 on:
   push:
     branches:
