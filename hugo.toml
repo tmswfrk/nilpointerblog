@@ -1,6 +1,6 @@
 baseurl      = "localhost"
 title        = "The Nil Pointer Blog"
-languageCode = "en-us"
+locale = "en-us"
 theme        = "hello-friend-ng"
 pagination.pagerSize     = 10
 enableRobotsTXT = true
