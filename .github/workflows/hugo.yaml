@@ -85,7 +85,7 @@ jobs:
         uses: actions/cache/restore@v6
         with:
           path: ${{ runner.temp }}/.cache/hugo
-          key: hugo-${{ github.ref_name }}
+          key: hugo-v2-${{ github.ref_name }}
           restore-keys: hugo-
 
       - name: Build

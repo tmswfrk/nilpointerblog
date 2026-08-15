@@ -4,7 +4,7 @@ locale = "en-us"
 theme        = "hello-friend-ng"
 pagination.pagerSize     = 10
 enableRobotsTXT = true
-relativeurls = true
+relativeurls = false
 canonifyURLs = true
 
 [services]
@@ -87,7 +87,7 @@ canonifyURLs = true
   [[menu.main]]
     identifier  = "about"
     name        = "$(whoami)"
-    url         = "/about"
+    url         = "about"
     hasChildren = true
 
 [[params.social]]
